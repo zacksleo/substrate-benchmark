@@ -1,0 +1,13 @@
+{
+  "name": "substrate-benchmark",
+  "version": "1.0.0",
+  "description": "substrate benchmark",
+  "main": "index.js",
+  "author": "zacksleo <zacksleo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^4.16.2",
+    "@polkadot/keyring": "^6.10.1",
+    "bn.js": "^5.2.0"
+  }
+}
