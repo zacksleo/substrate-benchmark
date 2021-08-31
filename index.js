@@ -26,7 +26,7 @@ async function main () {
     }
   }
   const unsub = await api.rpc.chain.subscribeNewHeads((header) => {
-    console.log("Block " + header.blockNumber + " Mined.");
+    console.log("Block " + header.number + " Mined.");
   });
   console.timeEnd('Transactions sent to the node in');
   let i = 0;
